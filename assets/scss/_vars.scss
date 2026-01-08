@@ -1,0 +1,24 @@
+// * Максимальная и минимальная ширина макета
+$container-width: 1400;
+$mobile-width: 420;
+
+:root {
+	// * Цвета
+	--dark-color: #212123;
+	--light-color: #fafafa;
+	--text-color: var(--dark-color);
+	--bg-color: #e27d5f;
+	--accent-color: #9fd4ff;
+	--error-color: #f06464;
+
+	// * Шрифты
+	--font-main: 'Montserrat', sans-serif;
+	--line-height: 120%;
+
+	// * Визуал
+	--time: 0.2s;
+	--radius: 15px;
+
+	// * Медиа бургера
+	--mobile-width: 768;
+}
