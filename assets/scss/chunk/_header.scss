@@ -1,15 +1,24 @@
 .header {
-	position: static;
+	position: absolute;
 	z-index: 10;
+	padding: 25px 60px;
 	width: 100%;
-	background-color: var(--light-color);
+	background-color: transparent;
 
 	&__container {
 		display: flex;
-		align-items: center;
+		align-items: stretch;
 		justify-content: space-between;
+		margin: 0 auto;
 		padding-top: 15px;
 		padding-bottom: 15px;
+		max-width: $container-width + px;
+	}
+
+	&__menu {
+		border-radius: 30px;
+		padding: 10px 15px;
+		background-color: var(--light-color);
 	}
 
 	&--sticky {

@@ -3,9 +3,19 @@
 .logo {
 	display: flex;
 	align-items: center;
+	gap: 10px;
+	border-radius: 30px;
+	padding: 3px 15px;
+	background-color: var(--light-color);
 
 	&__img {
-		max-width: 36px;
+		max-width: 24px;
+	}
+
+	&__text {
+		font-weight: 800;
+		font-size: 16px;
+		text-transform: uppercase;
 	}
 }
 
@@ -36,7 +46,7 @@
 	&__list {
 		display: flex;
 		align-items: center;
-		gap: 15px;
+		gap: 28px;
 
 		&--mobile {
 			flex-direction: column;
@@ -51,5 +61,27 @@
 		&:hover {
 			opacity: 0.5;
 		}
+	}
+}
+
+.section {
+	padding: 10px 0;
+}
+
+.link {
+	border-radius: 30px;
+	padding: 18px 28px;
+	font-weight: 600;
+	color: var(--light-color);
+	background-color: var(--accent-color);
+	transition: filter var(--time);
+
+	&:hover {
+		filter: brightness(120%);
+	}
+
+	&--min {
+		padding: 15px 23px;
+		font-size: 14px;
 	}
 }

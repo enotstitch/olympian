@@ -37,11 +37,12 @@ body {
 
 .main {
 	flex: 1 1 auto;
+	padding: 10px 0;
 }
 
 .container {
 	margin: 0 auto;
-	padding: 0 15px;
+	padding: 0 20px;
 	max-width: $container-width + px;
 }
 
