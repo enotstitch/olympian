@@ -15,12 +15,13 @@ html {
 
 body {
 	margin: 0;
+	padding: 0 20px;
 	height: 100%;
 	font-family: var(--font-main);
 	font-weight: 400;
 	line-height: var(--line-height);
 	color: var(--text-color);
-	background-color: var(--light-color);
+	background-color: var(--body-bg-color);
 	@include adaptive-font(18, 16);
 
 	&.lock {
@@ -42,7 +43,7 @@ body {
 
 .container {
 	margin: 0 auto;
-	padding: 0 20px;
+	// padding: 0 20px;
 	max-width: $container-width + px;
 }
 
