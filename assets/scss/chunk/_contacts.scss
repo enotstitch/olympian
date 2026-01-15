@@ -1,6 +1,6 @@
 .contacts__cards {
 	display: grid;
-	align-items: start;
+	align-items: center;
 	grid-auto-rows: auto;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 20px;
