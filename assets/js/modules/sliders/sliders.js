@@ -1,5 +1,5 @@
 import Swiper from 'swiper';
-import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination } from 'swiper/modules';
 
 function initSlider(selector, config) {
 	const slider = document.querySelector(selector);
@@ -10,7 +10,13 @@ function initSlider(selector, config) {
 
 export function initSliders() {
 	initSlider('.hero-slider', {
-		modules: [Pagination],
+		modules: [Pagination, Autoplay],
+
+		// loop: true,
+		// autoplay: {
+		// 	delay: 4000,
+		// 	disableOnInteraction: false,
+		// },
 
 		pagination: {
 			el: '.swiper-pagination',
